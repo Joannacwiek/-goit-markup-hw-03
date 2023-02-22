@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   text-decoration: none;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 h1,
 h2,
@@ -153,7 +154,6 @@ header {
   font-size: 14px;
   line-height: 1.5;
   text-align: justify;
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 /*Our Team Section*/
 
@@ -178,7 +178,7 @@ header {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 4px 4px 0px #000000 25%;
+  background: #ffffffff;
 }
 .box {
   display: flex;
@@ -187,6 +187,7 @@ header {
 }
 .container-team {
   background-color: #f5f4fa;
+  width: 1200px;
 }
 .box-team {
   display: flex;
@@ -203,7 +204,7 @@ header {
   color: var(--white-color);
   text-align: left;
   padding: 60px 215px 60px 215px;
-  max-width: 1200px;
+  width: 1200px;
   margin: 0px auto;
 }
 
@@ -220,6 +221,10 @@ header {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
   text-decoration: none;
+  font-style: normal;
+}
+.footer-address {
+  color: #ffffff;
 }
 .footer-link:focus,
 .footer-link:hover {
@@ -238,19 +243,18 @@ header {
 
 /*PORTFOLIO*/
 .button-portfolio {
-  width: 93px;
+  color: var(--brand-black);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
-  text-align: center;
   cursor: pointer;
   border-radius: 4px;
   border: transparent;
-  min-height: 38px;
+  padding: 5px 24px 5px 24px;
 }
 .buttons-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: center;
   gap: 8px;
