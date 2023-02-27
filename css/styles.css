@@ -8,6 +8,9 @@ body {
   letter-spacing: 0.03em;
   font-style: normal;
 }
+figure {
+  margin: 0;
+}
 h1,
 h2,
 h3,
@@ -30,10 +33,11 @@ li {
 /*header*/
 
 header {
-  padding: 24px 215px 25px 0px;
+  padding: 20px 227px 20px 215px;
   color: var(--brand-black);
   border-bottom: solid 1px #ececec;
   background-color: var(--white-color);
+  max-width: 1600px;
 }
 .nav-container {
   display: flex;
@@ -93,13 +97,14 @@ header {
   text-align: center;
   justify-content: center;
   text-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
-  padding: 280px 452px 280px 452px;
+  padding: 200px 0px 200px 0px;
+  width: 1600px;
+  margin: auto;
 }
 .button-hero {
-  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 200px;
-  left: 700px;
-  top: 430px;
   border-radius: 4px;
   border: transparent;
   background-color: var(--blue-color);
@@ -142,7 +147,6 @@ header {
   text-transform: uppercase;
   color: var(--brand-black);
   margin-bottom: 10px;
-  text-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
 }
 .we-do-description {
   font-size: 14px;
@@ -181,25 +185,23 @@ header {
 }
 .container-team {
   background-color: #f5f4fa;
-  width: 1200px;
+  width: 1600px;
+  margin: auto;
 }
 .box-team {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-.team-list:not(:last-child) {
-  margin-right: -30px;
+  gap: 30px;
 }
 
 /*FOOTER*/
 .footer-container {
   background-color: var(--background-color);
   color: var(--white-color);
-  text-align: left;
-  padding: 60px 215px 60px 215px;
-  width: 1200px;
-  margin: 0px auto;
+  padding: 60px 0px 60px 0px;
+  max-width: 1600px;
+  margin: auto;
 }
 
 .footer-logo {
@@ -253,7 +255,7 @@ header {
   flex-direction: row;
   justify-content: center;
   gap: 8px;
-  padding: 0px 250px 34px 250px;
+  margin: 0 auto 34px auto;
 }
 
 .button-portfolio:active,
@@ -283,7 +285,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
-  margin-left: -30px;
+  row-gap: 30px;
 }
 .img-decription {
   font-size: 16px;
@@ -299,8 +301,6 @@ header {
 }
 .container {
   max-width: 1200px;
-  padding-left: 215px;
-  padding-right: 215px;
   margin: 0px auto 0px auto;
 }
 .img-item {
