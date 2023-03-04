@@ -185,8 +185,6 @@ header {
 }
 .container-team {
   background-color: #f5f4fa;
-  width: 1600px;
-  margin: auto;
 }
 .box-team {
   display: flex;
@@ -200,8 +198,6 @@ header {
   background-color: var(--background-color);
   color: var(--white-color);
   padding: 60px 0px 60px 0px;
-  max-width: 1600px;
-  margin: auto;
 }
 
 .footer-logo {
